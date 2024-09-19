@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-container {
+    width: 630px;
+    margin: 100px auto;
+    padding: 70px 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 10px;
+    background: #f9f9f9;
+  }
+  
+  .todo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .todo-form {
+    width: 100%;
+  }
+  
+  .todo-heading {
+    text-shadow: 2px 1px 3px #000;
+    font-size: 40px;
+    letter-spacing: 6px;
+    font-weight: bold;
+  }
+  
+  .todo-inp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .todo-inp input {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  
+  .todo-list {
+    list-style: none;
+    color: #000;
+    font-size: 17px;
+    margin: 30px 0px 0px;
+    padding: 10px;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 10px;
+  }
+  
+  .singal-todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .singal-todo li {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .singal-todo-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .singal-todo-buttons button {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .singal-todo-buttons button:first-child {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+  .singal-todo-buttons button:first-child:hover {
+    background-color: #138496;
+  }
+  
+  .singal-todo-buttons button:last-child {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .singal-todo-buttons button:last-child:hover {
+    background-color: #c82333;
+  }
+  
+  .none {
+    display: none !important;
+  }
+  
+  @media (max-width: 786px) {
+    .todo-container {
+      width: 100%;
+    }
+  }
+  
